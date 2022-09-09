@@ -16,6 +16,6 @@ cd ns-3.36.1
 ./ns3 configure --enable-tests --enable-examples -d optimized
 ./test.py
 
-./ns3 configure --build-profile=debug --enable-examples --enable-tests
+./ns3 configure --build-profile=debug
 ./ns3
 ./ns3 run hello-simulator
